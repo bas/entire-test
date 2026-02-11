@@ -1,0 +1,53 @@
+{
+  "cli_version": "0.4.2",
+  "checkpoint_id": "155270a066c6",
+  "strategy": "manual-commit",
+  "branch": "add-cart",
+  "checkpoints_count": 4,
+  "files_touched": [
+    "app/api/products/route.test.ts",
+    "app/api/products/route.ts",
+    "app/cart/page.tsx",
+    "app/checkout/page.tsx",
+    "app/components/cart/AddToCartButton.tsx",
+    "app/components/cart/CartItem.tsx",
+    "app/components/cart/CartItemList.tsx",
+    "app/components/cart/CartPanel.tsx",
+    "app/components/cart/CartSummary.tsx",
+    "app/components/cart/OrderSummary.tsx",
+    "app/components/layout/Header.tsx",
+    "app/contexts/CartContext.tsx",
+    "app/contexts/ToastContext.tsx",
+    "app/contexts/cartReducer.test.ts",
+    "app/contexts/cartReducer.ts",
+    "app/hooks/useLocalStorage.ts",
+    "app/layout.tsx",
+    "app/page.tsx",
+    "app/products/page.tsx",
+    "app/types/cart.ts",
+    "app/types/product.ts",
+    "docs/prd/shopping-cart.md",
+    "e2e/cart.spec.ts",
+    "package.json",
+    "playwright-report/index.html",
+    "playwright.config.ts",
+    "test-results/.last-run.json",
+    "vitest.config.ts"
+  ],
+  "sessions": [
+    {
+      "metadata": "/15/5270a066c6/0/metadata.json",
+      "transcript": "/15/5270a066c6/0/full.jsonl",
+      "context": "/15/5270a066c6/0/context.md",
+      "content_hash": "/15/5270a066c6/0/content_hash.txt",
+      "prompt": "/15/5270a066c6/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 775,
+    "cache_creation_tokens": 297891,
+    "cache_read_tokens": 6891539,
+    "output_tokens": 55882,
+    "api_call_count": 64
+  }
+}
