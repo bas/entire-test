@@ -1,0 +1,5 @@
+Create an agent skill for PRDs
+
+---
+
+Add a TEMPLATE.md for the doc structure
