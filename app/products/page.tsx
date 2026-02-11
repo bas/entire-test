@@ -1,20 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import type { Product } from "@/app/types/product";
+import Header from "@/app/components/layout/Header";
+import AddToCartButton from "@/app/components/cart/AddToCartButton";
 
 export const metadata: Metadata = {
   title: "Products - Octodeco",
   description: "Browse our collection of GitHub Octocat-themed stickers",
 };
-
-interface Product {
-  id: string;
-  name: string;
-  description: string;
-  price: number;
-  image: string;
-  category: string;
-}
 
 async function getProducts(): Promise<Product[]> {
   const fs = await import("fs/promises");
@@ -29,28 +23,7 @@ export default async function ProductsPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-black text-white">
-        <div className="mx-auto max-w-7xl px-6 py-4">
-          <div className="flex items-center justify-between">
-            <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-              <Image
-                src="/images/products/original.png"
-                alt="Octodeco"
-                width={40}
-                height={40}
-                className="rounded-full"
-              />
-              <span className="text-xl font-semibold">Octodeco</span>
-            </Link>
-            <nav>
-              <Link href="/products" className="text-sm font-medium hover:text-zinc-300 transition-colors">
-                Products
-              </Link>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       {/* Main Content */}
       <main className="mx-auto max-w-7xl px-6 py-12">
@@ -99,9 +72,7 @@ export default async function ProductsPage() {
                   <span className="text-lg font-semibold text-black">
                     ${product.price.toFixed(2)}
                   </span>
-                  <button className="rounded-md bg-black px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-zinc-800">
-                    Add to Cart
-                  </button>
+                  <AddToCartButton product={product} />
                 </div>
               </div>
             </div>

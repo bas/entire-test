@@ -1,31 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
+import Header from "@/app/components/layout/Header";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-black text-white">
-        <div className="mx-auto max-w-7xl px-6 py-4">
-          <div className="flex items-center justify-between">
-            <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-              <Image
-                src="/images/products/original.png"
-                alt="Octodeco"
-                width={40}
-                height={40}
-                className="rounded-full"
-              />
-              <span className="text-xl font-semibold">Octodeco</span>
-            </Link>
-            <nav>
-              <Link href="/products" className="text-sm font-medium hover:text-zinc-300 transition-colors">
-                Products
-              </Link>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       {/* Hero Section */}
       <main className="mx-auto max-w-7xl px-6">
