@@ -1,0 +1,5 @@
+Add an api route for products
+
+---
+
+Add unit tests for the route with vitest
