@@ -1,0 +1,162 @@
+[
+  {
+    "id": "professortocat",
+    "name": "Professortocat",
+    "description": "The scholarly Octocat ready to teach you the ways of code",
+    "price": 4.99,
+    "image": "/images/products/Professortocat_v2.png",
+    "category": "academic"
+  },
+  {
+    "id": "terracottocat",
+    "name": "Terracottocat",
+    "description": "A warm, earthy Octocat with rustic charm",
+    "price": 3.99,
+    "image": "/images/products/Terracottocat_Single.png",
+    "category": "artistic"
+  },
+  {
+    "id": "bouncercat",
+    "name": "Bouncercat",
+    "description": "The tough bouncer Octocat keeping your code secure",
+    "price": 4.49,
+    "image": "/images/products/bouncercat.png",
+    "category": "security"
+  },
+  {
+    "id": "cherryontop-o-cat",
+    "name": "Cherry On Top-O-Cat",
+    "description": "The sweetest Octocat, like a cherry on top of your project",
+    "price": 3.99,
+    "image": "/images/products/cherryontop-o-cat.png",
+    "category": "food"
+  },
+  {
+    "id": "dinotocat",
+    "name": "Dinotocat",
+    "description": "A prehistoric Octocat from the age of dinosaurs",
+    "price": 5.49,
+    "image": "/images/products/dinotocat.png",
+    "category": "animals"
+  },
+  {
+    "id": "femalecodertocat",
+    "name": "Female Codertocat",
+    "description": "Celebrating women in tech with this coding Octocat",
+    "price": 4.99,
+    "image": "/images/products/femalecodertocat.png",
+    "category": "tech"
+  },
+  {
+    "id": "inflatocat",
+    "name": "Inflatocat",
+    "description": "The inflatable pool Octocat ready for summer fun",
+    "price": 4.49,
+    "image": "/images/products/inflatocat.png",
+    "category": "seasonal"
+  },
+  {
+    "id": "jetpacktocat",
+    "name": "Jetpacktocat",
+    "description": "Blast off with this rocket-powered Octocat",
+    "price": 5.99,
+    "image": "/images/products/jetpacktocat.png",
+    "category": "adventure"
+  },
+  {
+    "id": "justicetocat",
+    "name": "Justicetocat",
+    "description": "Fighting for code justice, one commit at a time",
+    "price": 4.99,
+    "image": "/images/products/justicetocat.jpg",
+    "category": "heroes"
+  },
+  {
+    "id": "manufacturetocat",
+    "name": "Manufacturetocat",
+    "description": "The industrial Octocat building great software",
+    "price": 4.49,
+    "image": "/images/products/manufacturetocat.png",
+    "category": "tech"
+  },
+  {
+    "id": "mona-the-rivetertocat",
+    "name": "Mona the Rivetertocat",
+    "description": "We can code it! Inspired by the iconic poster",
+    "price": 5.49,
+    "image": "/images/products/mona-the-rivetertocat.png",
+    "category": "heroes"
+  },
+  {
+    "id": "oktobercat",
+    "name": "Oktobercat",
+    "description": "Celebrate Oktoberfest with this festive Octocat",
+    "price": 4.99,
+    "image": "/images/products/oktobercat.png",
+    "category": "seasonal"
+  },
+  {
+    "id": "original",
+    "name": "Original Octocat",
+    "description": "The classic Octocat that started it all",
+    "price": 3.49,
+    "image": "/images/products/original.png",
+    "category": "classic"
+  },
+  {
+    "id": "red-polo",
+    "name": "Red Polo Octocat",
+    "description": "The casual Friday Octocat in a stylish red polo",
+    "price": 3.99,
+    "image": "/images/products/red-polo.png",
+    "category": "classic"
+  },
+  {
+    "id": "skatetocat",
+    "name": "Skatetocat",
+    "description": "Shred the half-pipe with this skateboarding Octocat",
+    "price": 4.99,
+    "image": "/images/products/skatetocat.png",
+    "category": "sports"
+  },
+  {
+    "id": "sponsortocat",
+    "name": "Sponsortocat",
+    "description": "Support open source with this sponsor-loving Octocat",
+    "price": 5.99,
+    "image": "/images/products/sponsortocat.png",
+    "category": "community"
+  },
+  {
+    "id": "surftocat",
+    "name": "Surftocat",
+    "description": "Catch the wave with this surfing Octocat",
+    "price": 4.99,
+    "image": "/images/products/surftocat.png",
+    "category": "sports"
+  },
+  {
+    "id": "vinyltocat",
+    "name": "Vinyltocat",
+    "description": "Spinning records and code with this DJ Octocat",
+    "price": 4.49,
+    "image": "/images/products/vinyltocat.png",
+    "category": "music"
+  },
+  {
+    "id": "welcometocat",
+    "name": "Welcometocat",
+    "description": "A friendly Octocat welcoming you to the community",
+    "price": 3.49,
+    "image": "/images/products/welcometocat.png",
+    "category": "community"
+  },
+  {
+    "id": "yogitocat",
+    "name": "Yogitocat",
+    "description": "Find your zen with this yoga-practicing Octocat",
+    "price": 4.49,
+    "image": "/images/products/yogitocat.png",
+    "category": "wellness"
+  }
+]
