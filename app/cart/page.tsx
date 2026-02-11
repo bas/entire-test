@@ -1,6 +1,5 @@
 "use client";
 
-import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "@/app/components/layout/Header";
 import { useCart } from "@/app/contexts/CartContext";
