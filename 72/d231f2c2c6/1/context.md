@@ -1,0 +1,8 @@
+# Session Context
+
+## User Prompts
+
+### Prompt 1
+
+Create a products page at `app/products/page.tsx` for Octodeco, an online sticker company. Also update the landing page or main layout to include a link to the products page.
+
