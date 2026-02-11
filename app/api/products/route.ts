@@ -1,16 +1,8 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
+import type { Product } from "@/app/types/product";
 import fs from "fs/promises";
 import path from "path";
-
-export interface Product {
-  id: string;
-  name: string;
-  description: string;
-  price: number;
-  image: string;
-  category: string;
-}
 
 export async function GET(request: NextRequest): Promise<NextResponse<Product[]>> {
   try {
